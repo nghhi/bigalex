@@ -1,0 +1,123 @@
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link rel="ICON" href="pictures/favicon.ico">
+    <title>אלכסנדר הגדול | בחן את עצמך | בריינפופ ישראל</title>
+    <audio id="correctAnswerBeep" type="audio/mpeg"></audio>
+    <audio id="wrongAnswer" type="audio/mpeg" src="sounds/quiz-wrong.wav"></audio>
+
+    <script src="./questions.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <header></header>
+    <div id="navbar">
+        <div style="max-width: 1024px; margin: auto">
+        <div class="navbar-right">
+            <img class="logo" src="pictures/logo.png">
+        </div>
+        <div class="navbar-left">
+            <form style="max-width: 430px; float: left; padding: 15px 0 15px 15px; width: 100%">
+                <input class="searchbar" placeholder="חפש">
+                <img class="searchglass" src="pictures/search_icon.svg">
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="row titlebar">
+        <div class="container-fluid">
+            <ul class="topic_title_buttons">
+                <li class="topic_container"><img class="category_button" src="pictures/social_studies.svg"></li>
+                <li class="separator_container"><div class="breadcrumb_separator"></div></li>
+                <li class="topic_unit_container"><div class="unit_container"><img class="units_button" src="pictures/history.svg"></div></li>
+                <li class="separator_container"><div class="breadcrumb_separator"></div></li>
+                <li class="title_container"><h1>אלכסנדר הגדול</h1></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div id="feature">
+
+        <div id="quiz_intro">
+            <div class="quiz_title">חידון!</div>
+            <div class="quiz_name">אלכסנדר הגדול</div>
+            <div class="quiz_screenshots">
+                <div class="quiz_screenshot">
+                    <img class ="quiz_screenshot_img" src="pictures/screenshot.jpeg">
+                </div>
+            </div>
+            <div class="menu_quiz_options">
+                <div class="quiz_option">
+                    <button id="review_quiz">התחל</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="quiz_questions_holder">
+            <div id="question_holder">
+                <div class="question_row">
+                    <div id="questionNumber"></div>
+                    <div id="question"></div>
+                </div>
+                <div class="answer_holder"><ul id="answer_list"></ul></div>
+            </div>
+
+            <div class="notifications"><div id="correctNotif"><img id="notif_moby_head" src="pictures/correct_state_moby_head.svg"></div></div>
+            
+            <div class="question_progress">
+                <div id="question_progress"></div>
+                <div class="progress_bar_full">
+                    <div id="progress_bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="end_quiz">
+            <div class="end_quiz_container">
+                <h2 class="final_score_header">וואו... סיימתם...</h2>
+                <div class="score_image"><img src="pictures/sensitive_state_moby_head.svg"></div>
+            </div>
+            <div class="finish_quiz_container">
+                <div class="view_results_button">לא מומלץ לצפות בתוצאות</div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="row" id="feature_menu">
+        <ul class="feature_menu">
+            <li class="feature_button">
+                <div class="feature_container"><img class="feature" src="pictures/movie_icon.svg"></div>
+                <div class="feature_desc">סרטון</div>
+            </li>
+            <li class="feature_button" style="background: #007171">
+                <div class="feature_container"><img class="feature" src="pictures/features_settings_18_svg_icon.svg"></div>
+                <div class="feature_desc">בחן את עצמך</div>
+            </li>
+            <li class="feature_button">
+                <div class="feature_container"><img class="feature" src="pictures/features_settings_77_svg_icon.svg"></div>
+                <div class="feature_desc">שאלות ותשובות</div>
+            </li>
+            <li class="feature_button">
+                <div class="feature_container"><img class="feature" src="pictures/features_settings_15_svg_icon.svg"></div>
+                <div class="feature_desc">ציר זמן</div>
+            </li>
+            <li class="feature_button">
+                <div class="feature_container"><img class="feature" src="pictures/features_settings_85_svg_icon.svg"></div>
+                <div class="feature_desc">אתגר</div>
+            </li>
+            <li class="feature_button" style="border-left: 0">
+                <div class="feature_container"><img class="feature" src="pictures/features_settings_85_svg_icon.svg"></div>
+                <div class="feature_desc">פעילות</div>
+            </li>
+        </ul>
+    </div>
+    <div id="breadcrumbs">
+        דף הבית  >  חברה ותרבות  >  היסטוריה של העולם  >  אלכסנדר הגדול  >  בחן את עצמך
+    </div>
+    <footer></footer>
+</body>

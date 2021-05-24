@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M25,12 L16.9909141,12 C15.8890643,12 15,12.8937773 15,13.9963074 L15,70.0036926 C15,71.1052696 15.8913626,72 16.9909141,72 L63.0090859,72 C64.1109357,72 65,71.1062227 65,70.0036926 L65,13.9963074 C65,12.8947304 64.1086374,12 63.0090859,12 L55,12 L55,21 L25,21 L25,12 Z M25,31 L55,31 L55,35 L25,35 L25,31 Z M25,43 L55,43 L55,47 L25,47 L25,43 Z M25,55 L55,55 L55,59 L25,59 L25,55 Z M29,9 L51,9 L51,17 L29,17 L29,9 Z" id="Experiment" fill="#FFFFFF"></path>
+    </g>
+</svg>
